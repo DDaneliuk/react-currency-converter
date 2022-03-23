@@ -1,0 +1,22 @@
+@import'../../style/abstract/variables.scss';
+.navBlock{
+  position: relative;
+  width: fit-content;
+  margin: 50px auto 0;
+  border-radius: 30px;
+  display: flex;
+  background-color: $color-primary-bg;
+}
+.navItem{
+  padding: 20px;
+  border-radius: 30px;
+  margin: 4px 6px;
+  min-width: 100px;
+  text-align: center;
+  background-color: $color-primary-bg;
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover{
+    background-color: $color-secondary-bg;
+  }
+}

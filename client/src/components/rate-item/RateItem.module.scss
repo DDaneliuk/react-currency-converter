@@ -1,0 +1,17 @@
+@import '../../style/abstract/variables.scss';
+.rateItem{
+  width: 100%;
+  padding: 20px;
+  background-color: $color-primary-bg;
+  border-radius: 30px;
+  margin:0 0 10px;
+}
+.rateFlex{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.item{
+  margin: 0 20px;
+}

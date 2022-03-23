@@ -1,0 +1,24 @@
+@import '../../style/abstract/variables.scss';
+.formBlock{
+  margin: 40px auto 0;
+  width: 100%;
+  padding: 40px;
+  background-color: $color-primary-bg;
+  border-radius: 30px;
+}
+.filedSet{
+  display: flex;
+}
+.formFlex{
+  display: flex;
+  justify-content: space-around;
+}
+.resultBlock{
+  margin: 40px 0 10px;
+  text-align: center;
+}
+.submitBtn{
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+}

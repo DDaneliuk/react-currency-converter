@@ -1,0 +1,20 @@
+label {
+  display: block;
+  font-weight: bold;
+  margin: 14px 0 4px;
+  color: #0d0c22;
+}
+input, select{
+  padding: 10px 14px;
+  outline: none;
+  color: #000;
+  background-color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #eeeeee;
+  cursor: pointer;
+  transition: 0.2s;
+  &:focus {
+    border: 2px solid #000000;
+  }
+}
+
